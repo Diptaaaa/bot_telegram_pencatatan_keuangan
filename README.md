@@ -101,14 +101,14 @@ python test_finance.py
 
 ```text
 finance-bot/
-├── .agents/                 # Panduan & rules pengembangan
 ├── bot.py                   # Entry point bot, router, FSM wizard & handler chat
 ├── db.py                    # Operasi database SQLite asinkron (aiosqlite)
 ├── keyboards.py             # Builder tombol inline keyboard Telegram
 ├── utils.py                 # Parser nominal rupiah, pembaca tanggal, export CSV
 ├── test_finance.py          # Unit test parser & alur transaksi
 ├── requirements.txt         # Daftar pustaka Python
-├── AGENTS.md                # Pedoman standar kode & skills
+├── .env.example             # Template variabel lingkungan
+├── LICENSE                  # Lisensi proyek (MIT)
 ├── README.md                # Dokumentasi proyek
 └── data/                    # Folder penyimpanan database SQLite (dibuat otomatis)
 ```

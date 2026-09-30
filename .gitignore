@@ -9,11 +9,13 @@ ENV/
 env/
 .venv/
 
-# IDE
+# IDE & Agents
 .vscode/
 .idea/
 *.swp
 *.swo
+.agents/
+AGENTS.md
 
 # Environment / Secrets
 .env
