@@ -184,7 +184,7 @@ def format_period_label(start: str, end: str) -> str:
 
     if start_d.month == end_d.month and start_d.year == end_d.year:
         if (end_d - start_d).days <= 7 and start_d != end_d:
-            return f"{start_d.day} – {end_d.day} {start_d.strftime('%B %Y')}"
+            return f"{start_d.day} - {end_d.day} {start_d.strftime('%B %Y')}"
         return start_d.strftime("%B %Y")
 
     if start_d == end_d:
@@ -193,10 +193,10 @@ def format_period_label(start: str, end: str) -> str:
     # Mingguan lintas bulan
     if (end_d - start_d).days <= 7:
         if start_d.year == end_d.year:
-            return f"{start_d.day} {start_d.strftime('%b')} – {end_d.day} {end_d.strftime('%b %Y')}"
-        return f"{start_d.strftime('%d %b %Y')} – {end_d.strftime('%d %b %Y')}"
+            return f"{start_d.day} {start_d.strftime('%b')} - {end_d.day} {end_d.strftime('%b %Y')}"
+        return f"{start_d.strftime('%d %b %Y')} - {end_d.strftime('%d %b %Y')}"
 
-    return f"{start_d.strftime('%d %B %Y')} – {end_d.strftime('%d %B %Y')}"
+    return f"{start_d.strftime('%d %B %Y')} - {end_d.strftime('%d %B %Y')}"
 
 
 # ──────────────────────────────────────

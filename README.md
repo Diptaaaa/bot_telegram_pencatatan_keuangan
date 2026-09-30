@@ -42,9 +42,9 @@ Dengan bot Telegram ini, pencatatan transaksi bisa selesai dalam beberapa detik:
 ## Tech Stack
 
 - **Python 3.10+** (diuji pada Python 3.12)
-- **aiogram 3.x** — Framework asinkron modern untuk Telegram Bot API
-- **aiosqlite** — SQLite asinkron dengan WAL mode & foreign keys untuk performa cepat dan aman dari korupsi data
-- **python-dotenv** — Manajemen konfigurasi dan token rahasia
+- **aiogram 3.x**: Framework asinkron modern untuk Telegram Bot API
+- **aiosqlite**: SQLite asinkron dengan WAL mode & foreign keys untuk performa cepat dan aman dari korupsi data
+- **python-dotenv**: Manajemen konfigurasi dan token rahasia
 
 ---
 

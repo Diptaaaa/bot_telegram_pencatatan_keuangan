@@ -187,14 +187,14 @@ async def cmd_help(message: Message, state: FSMContext):
     await state.clear()
     help_text = (
         "📋 *Bantuan Perintah:*\n\n"
-        "/start — Tampilkan menu utama\n"
-        "/add — Tambah transaksi dengan wizard panduan\n"
-        "/history — Riwayat transaksi (opsional: `/history 2026-09`)\n"
-        "/edit — Edit transaksi tersimpan (opsional: `/edit ID`)\n"
-        "/report — Laporan keuangan bulanan/mingguan\n"
-        "/categories — Kelola kategori pemasukan & pengeluaran\n"
-        "/export — Unduh data transaksi dalam file CSV\n"
-        "/cancel — Batalkan wizard yang sedang aktif\n\n"
+        "/start: Tampilkan menu utama\n"
+        "/add: Tambah transaksi dengan wizard panduan\n"
+        "/history: Riwayat transaksi (opsional: `/history 2026-09`)\n"
+        "/edit: Edit transaksi tersimpan (opsional: `/edit ID`)\n"
+        "/report: Laporan keuangan bulanan/mingguan\n"
+        "/categories: Kelola kategori pemasukan & pengeluaran\n"
+        "/export: Unduh data transaksi dalam file CSV\n"
+        "/cancel: Batalkan wizard yang sedang aktif\n\n"
         "💡 *Tips Cepat:* Anda bisa mencatat langsung tanpa menu:\n"
         "`- 15k kopi tubruk`\n"
         "`+ 500k freelance desain`"
@@ -817,7 +817,7 @@ async def handle_quick_add(message: Message):
     )
 
     type_icon = "💰 Pemasukan" if tx_type == "income" else "💸 Pengeluaran"
-    note_str = f" — _{note}_" if note else ""
+    note_str = f" ({note})" if note else ""
 
     await message.answer(
         f"⚡ *Quick-Add Berhasil!*\n\n"
