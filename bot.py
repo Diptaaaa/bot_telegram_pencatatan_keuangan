@@ -817,7 +817,7 @@ async def handle_quick_add(message: Message):
     )
 
     type_icon = "💰 Pemasukan" if tx_type == "income" else "💸 Pengeluaran"
-    note_str = f" ({note})" if note else ""
+    note_str = f" — _{note}_" if note else ""
 
     await message.answer(
         f"⚡ *Quick-Add Berhasil!*\n\n"

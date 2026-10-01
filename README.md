@@ -39,6 +39,31 @@ Dengan bot Telegram ini, pencatatan transaksi bisa selesai dalam beberapa detik:
 
 ---
 
+## Demo Tampilan Bot
+
+| Menu Utama (`/start`) | Alur Input Transaksi (Wizard) |
+| :---: | :---: |
+| <img src="aset/01_menu_utama.png" width="360" alt="Menu Utama" /> | <img src="aset/04_alur_input_transaksi.png" width="360" alt="Alur Input Transaksi" /> |
+
+| Riwayat Transaksi (`/history`) | Menu Edit Transaksi (`/edit`) |
+| :---: | :---: |
+| <img src="aset/05_riwayat_transaksi.png" width="360" alt="Riwayat Transaksi" /> | <img src="aset/06_edit_transaksi.png" width="360" alt="Menu Edit Transaksi" /> |
+
+| Laporan Keuangan Visual (`/report`) | Ekspor Berkas CSV (`/export`) |
+| :---: | :---: |
+| <img src="aset/07_laporan_keuangan.png" width="360" alt="Laporan Keuangan" /> | <img src="aset/08_export_csv.png" width="360" alt="Ekspor CSV" /> |
+
+<details>
+<summary><b>Lihat detail langkah pemilihan kategori</b></summary>
+
+| Langkah 1: Pilih Tipe | Langkah 2: Pilih Kategori |
+| :---: | :---: |
+| <img src="aset/02_pilih_tipe.png" width="360" alt="Pilih Tipe Transaksi" /> | <img src="aset/03_pilih_kategori.png" width="360" alt="Pilih Kategori Transaksi" /> |
+
+</details>
+
+---
+
 ## Tech Stack
 
 - **Python 3.10+** (diuji pada Python 3.12)

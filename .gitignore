@@ -16,6 +16,7 @@ env/
 *.swo
 .agents/
 AGENTS.md
+NOTION_DOCS.md
 
 # Environment / Secrets
 .env
